@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/RosieCozy/Feeferz-Overlay/releases/latest"><img src="https://img.shields.io/github/v/release/RosieCozy/Feeferz-Overlay?label=download&color=4b4b54" alt="Latest release"></a>
-  <a href="https://github.com/RosieCozy/Feeferz-Overlay/releases"><img src="https://img.shields.io/github/downloads/RosieCozy/Feeferz-Overlay/total?color=4b4b54" alt="Downloads"></a>
+  <a href="https://github.com/RosieCozy/League-of-Legends-Feeferz-Overlay/releases/latest"><img src="https://img.shields.io/github/v/release/RosieCozy/League-of-Legends-Feeferz-Overlay?label=download&color=4b4b54" alt="Latest release"></a>
+  <a href="https://github.com/RosieCozy/League-of-Legends-Feeferz-Overlay/releases"><img src="https://img.shields.io/github/downloads/RosieCozy/League-of-Legends-Feeferz-Overlay/total?color=4b4b54" alt="Downloads"></a>
   <img src="https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-4b4b54" alt="Windows 10 and 11">
 </p>
 
@@ -21,7 +21,7 @@
 
 ## Download
 
-1. Grab **`FeeferzOverlay.exe`** from the [latest release](https://github.com/RosieCozy/Feeferz-Overlay/releases/latest).
+1. Grab **`FeeferzOverlay.exe`** from the [latest release](https://github.com/RosieCozy/League-of-Legends-Feeferz-Overlay/releases/latest).
 2. Run it. No installer and nothing else to install.
 3. Set League to **Borderless** window mode so the overlay can show above the game.
 

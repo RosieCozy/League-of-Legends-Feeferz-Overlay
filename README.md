@@ -84,25 +84,6 @@ Feeferz Overlay only uses the interfaces Riot provides on your own PC: the Leagu
 
 Enemy ability and summoner spell timers are deliberately left out, as Riot's third-party rules don't allow them.
 
-## Building from source
-
-Requires Python 3.10 or newer.
-
-```
-pip install -r requirements.txt
-python main.py
-```
-
-On Windows you can double-click `run.bat`. To build the single-file exe, double-click `build.bat` and enter a version number; the app appears in `dist\FeeferzOverlay.exe`.
-
-To publish an update, build with a higher version, then on GitHub draft a new release tagged `v<version>` with `FeeferzOverlay.exe` attached. Installed copies update themselves.
-
-`tools\screenshots.bat` refreshes the images in this README.
-
-Tests: `python -m pytest tests`
-
-Settings and cache are kept in `%APPDATA%\FeeferzOverlay`.
-
 ## License
 
 Copyright (c) 2026 Throwsie. All rights reserved.

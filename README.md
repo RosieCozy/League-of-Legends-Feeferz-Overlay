@@ -88,7 +88,7 @@ Enemy ability and summoner spell timers are deliberately left out, as Riot's thi
 
 Copyright (c) 2026 Throwsie. All rights reserved.
 
-Feeferz Overlay and its source code are owned by Throwsie. The code is public to view only. You may download and use the released app for personal use, but you may not copy, modify, redistribute, sell, re-upload or publish this code or the app, in whole or in part, or make derivative works from it, without written permission. See [LICENSE](LICENSE).
+Feeferz Overlay and its source code are owned by Throwsie. You may download and use the released app for personal use, but you may not copy, modify, redistribute, sell, re-upload or publish this code or the app, in whole or in part, or make derivative works from it, without written permission. See [LICENSE](LICENSE).
 
 ## Legal
 

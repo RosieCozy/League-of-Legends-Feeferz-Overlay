@@ -80,7 +80,22 @@ The app updates itself when a new release is out. It waits until you're out of c
 
 ## Is it safe?
 
-Feeferz Overlay only uses the interfaces Riot provides on your own PC: the League client's local API (champ select, runes, store) and the Live Client Data API (your in-game items). It doesn't read or change game memory, inject anything or touch game files. No account login or API key is needed.
+VirusTotal scan: https://www.virustotal.com/gui/file/5b0e74670a65e111c020dce68bb64bd3f1fafff38541aca8385f6b86a4ffe58c?nocache=1
+
+3 of 71 engines flag it (Arctic Wolf, Bkav Pro, SecureAge). These are generic machine-learning detections that commonly hit apps built with Python and PyInstaller. Microsoft Defender, Kaspersky, ESET, Bitdefender and the other major engines report it clean.
+
+SHA-256: 5b0e74670a65e111c020dce68bb64bd3f1fafff38541aca8385f6b86a4ffe58c
+You can check your download matches by running this in Command Prompt:
+certutil -hashfile FeeferzOverlay.exe SHA256
+
+What the app does and doesn't do:
+- Only uses Riot's official local interfaces (the League client API and the Live Client Data API)
+- Doesn't read or change game memory, inject anything or modify game files
+- Never asks for your Riot login or password
+- Doesn't need admin rights
+- Settings and cache are stored in %APPDATA%\FeeferzOverlay
+
+The app isn't code-signed yet, so Windows may show a SmartScreen warning the first time. Click "More info" then "Run anyway".
 
 Enemy ability and summoner spell timers are deliberately left out, as Riot's third-party rules don't allow them.
 
